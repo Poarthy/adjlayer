@@ -4,6 +4,12 @@ A Rust command-line tool for applying NodeVideo-style adjustment layers to image
 
 > **Status:** Builds and passes the included tests on the current Termux environment. Effect support is partial; some rendering behavior is approximate. See [Supported effects](#supported-effects).
 
+## Before / after
+
+| Before | After |
+|---|---|
+| ![Before: original image](screenshots/before.webp) | ![After: adjusted image](screenshots/after.png) |
+
 ## Features
 
 - Convert a NodeVideo `.nv` project into a compact `.adjust.json` layer.
